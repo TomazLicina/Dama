@@ -255,10 +255,10 @@ def drugic_check(polje):
             if (polja[polje - 7] == 2 or polja[polje - 7] == 4) and polja[polje - 14] == 1:
                 drugic.append(polje - 14)
             if (polja[polje + 9] == 2 or polja[polje + 9] == 4) and polja[polje + 18] == 1:
-                drugic.append(polje + 14)
+                drugic.append(polje + 18)
         elif polja[polje] == 2:
             if (polja[polje + 9] == 3 or polja[polje + 9] == 5) and polja[polje + 18] == 1:
-                drugic.append(polje - 14)
+                drugic.append(polje + 18)
         elif polja[polje] == 4:
             if (polja[polje - 7] == 3 or polja[polje - 7] == 5) and polja[polje - 14] == 1:
                 drugic.append(polje - 14)
